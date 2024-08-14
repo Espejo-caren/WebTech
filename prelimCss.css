@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url("background.png");
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display:inline-block;
+}
+a:hover {
+    text-decoration: none;
+    color: #F00F7F;
+}
+
+.top img {
+    margin-top: 5px;
+    width: 600px;
+    height: auto;
+    display: inline-block;
+}
+
+.top {
+    text-align: center;
+}
+
+.toTop {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #405D72;
+    margin: 30px auto;
+    margin-left: 1400px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toTop a {
+    color: white;
+    text-decoration: none;
+}
+
+.toTop:hover {
+    background-color: #7776B3;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: #FFF5E1;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.gallery {
+    margin: 50px;
+    border: 3px solid #000000;
+    float: left;
+    width: 250px;
+  }
+  
+  .gallery:hover {
+    border: 3px solid rgb(253, 253, 160);
+    opacity:80%;
+  }
+  
+  .gallery img {
+    width: 250px;
+    height: 320px;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+    font-family: tahoma;
+    font-weight: bold;
+  }
+
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow-x:auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.movie-title {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.container img {
+    width: 250px;
+    height: 300px;
+    transition: transform .2s;
+}
+.container img:hover {
+    transform: scale(1);
+}
+.num {
+    color: #8F1007;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px  white;
+}
